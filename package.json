@@ -1,0 +1,22 @@
+{
+  "name": "vurpress_demo",
+  "version": "1.0.0",
+  "description": "vuepress demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "vuepress dev .",
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyf195075595/vurpress_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyf195075595/vurpress_demo/issues"
+  },
+  "homepage": "https://github.com/wyf195075595/vurpress_demo#readme"
+}
