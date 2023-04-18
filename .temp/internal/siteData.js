@@ -4,13 +4,13 @@
 export const siteData = {
   "title": "welcome",
   "description": "描述",
-  "base": "/",
+  "base": "/docs/",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/hero.png"
+        "href": "/docs/hero.png"
       }
     ],
     [
@@ -55,8 +55,10 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-a09672a6",
-      "path": "/"
+      "key": "v-1f9e953a",
+      "path": "/",
+      "lastUpdated": "4/17/2023, 5:06:42 PM",
+      "lastUpdatedTimestamp": 1681722402000
     },
     {
       "title": "配置0",
@@ -65,7 +67,7 @@ export const siteData = {
       },
       "regularPath": "/config.html",
       "relativePath": "config.md",
-      "key": "v-9fdfbc14",
+      "key": "v-d71cad6e",
       "path": "/config.html",
       "headers": [
         {
@@ -158,13 +160,15 @@ export const siteData = {
           "title": "1-45",
           "slug": "_1-45"
         }
-      ]
+      ],
+      "lastUpdated": "4/17/2023, 5:06:42 PM",
+      "lastUpdatedTimestamp": 1681722402000
     },
     {
       "frontmatter": {},
       "regularPath": "/java/",
       "relativePath": "java/README.md",
-      "key": "v-72918d90",
+      "key": "v-45ef6046",
       "path": "/java/",
       "headers": [
         {
@@ -172,13 +176,15 @@ export const siteData = {
           "title": "java readme",
           "slug": "java-readme"
         }
-      ]
+      ],
+      "lastUpdated": "4/17/2023, 5:06:42 PM",
+      "lastUpdatedTimestamp": 1681722402000
     },
     {
       "frontmatter": {},
       "regularPath": "/javascript/",
       "relativePath": "javascript/README.md",
-      "key": "v-571d9aa0",
+      "key": "v-463de97d",
       "path": "/javascript/",
       "headers": [
         {
@@ -186,7 +192,9 @@ export const siteData = {
           "title": "js readme",
           "slug": "js-readme"
         }
-      ]
+      ],
+      "lastUpdated": "4/17/2023, 5:06:42 PM",
+      "lastUpdatedTimestamp": 1681722402000
     }
   ],
   "themeConfig": {

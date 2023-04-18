@@ -2,12 +2,13 @@
  * @Description: 
  * @Author:  
  * @Date: 2023-04-17 15:50:18
- * @LastEditTime: 2023-04-17 17:01:21
+ * @LastEditTime: 2023-04-18 08:37:55
  * @LastEditors:  
  */
 module.exports = {
     title: "welcome",
     description: "描述",
+    base: "/docs/",
     head: [
         ["link", { rel: "icon", href: "/hero.png"}],
         ["meta", { name: "keywords", content: "vuepress 介绍"}],

@@ -9,11 +9,11 @@ import GlobalLayout from "C:\\Users\\19507\\AppData\\Local\\Yarn\\Data\\global\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-a09672a6",
+    name: "v-1f9e953a",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a09672a6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1f9e953a").then(next)
     },
   },
   {
@@ -21,19 +21,19 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-9fdfbc14",
+    name: "v-d71cad6e",
     path: "/config.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9fdfbc14").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d71cad6e").then(next)
     },
   },
   {
-    name: "v-72918d90",
+    name: "v-45ef6046",
     path: "/java/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-72918d90").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-45ef6046").then(next)
     },
   },
   {
@@ -41,11 +41,11 @@ export const routes = [
     redirect: "/java/"
   },
   {
-    name: "v-571d9aa0",
+    name: "v-463de97d",
     path: "/javascript/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-571d9aa0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-463de97d").then(next)
     },
   },
   {

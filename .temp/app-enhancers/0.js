@@ -1,1 +1,1 @@
-export { default } from "D:\\gitSpace\\git\\vurpress_demo\\docs\\.vuepress\\enhanceApp.js"
+export { default } from "D:\\gitSpace\\git\\docs\\docs\\.vuepress\\enhanceApp.js"
