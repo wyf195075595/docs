@@ -2,7 +2,7 @@
  * @Description: 
  * @Author:  
  * @Date: 2023-04-18 08:36:26
- * @LastEditTime: 2023-04-18 16:28:25
+ * @LastEditTime: 2023-04-19 08:41:37
  * @LastEditors:  
  */
 /*
@@ -67,6 +67,10 @@ module.exports = {
         clientSecret: '9603fc19fd6e63ef3443ba061dfd204416e46bf9',
         autoCreateIssue: true
       },
+      '@vuepress/back-to-top': {},
+      '@vuepress/google-analytics': {
+        'ga': 'UA-264328596-1' //
+      }
     }
   }
   

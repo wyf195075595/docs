@@ -4,22 +4,10 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "C:\\Users\\19507\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "D:\\gitSpace\\git\\docs\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
-  {
-    name: "v-1f9e953a",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1f9e953a").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
   {
     name: "v-d71cad6e",
     path: "/config.html",
@@ -27,6 +15,18 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-d71cad6e").then(next)
     },
+  },
+  {
+    name: "v-463de97d",
+    path: "/javascript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-463de97d").then(next)
+    },
+  },
+  {
+    path: "/javascript/index.html",
+    redirect: "/javascript/"
   },
   {
     name: "v-45ef6046",
@@ -41,16 +41,16 @@ export const routes = [
     redirect: "/java/"
   },
   {
-    name: "v-463de97d",
-    path: "/javascript/",
+    name: "v-1f9e953a",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-463de97d").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1f9e953a").then(next)
     },
   },
   {
-    path: "/javascript/index.html",
-    redirect: "/javascript/"
+    path: "/index.html",
+    redirect: "/"
   },
   {
     path: '*',
