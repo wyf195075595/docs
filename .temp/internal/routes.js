@@ -9,6 +9,14 @@ import GlobalLayout from "D:\\gitSpace\\git\\docs\\node_modules\\@vuepress\\core
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-d71cad6e",
+    path: "/config.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d71cad6e").then(next)
+    },
+  },
+  {
     name: "v-1f9e953a",
     path: "/",
     component: GlobalLayout,
@@ -21,26 +29,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-463de97d",
-    path: "/javascript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-463de97d").then(next)
-    },
-  },
-  {
-    path: "/javascript/index.html",
-    redirect: "/javascript/"
-  },
-  {
-    name: "v-d71cad6e",
-    path: "/config.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d71cad6e").then(next)
-    },
-  },
-  {
     name: "v-45ef6046",
     path: "/java/",
     component: GlobalLayout,
@@ -51,6 +39,18 @@ export const routes = [
   {
     path: "/java/index.html",
     redirect: "/java/"
+  },
+  {
+    name: "v-463de97d",
+    path: "/javascript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-463de97d").then(next)
+    },
+  },
+  {
+    path: "/javascript/index.html",
+    redirect: "/javascript/"
   },
   {
     path: '*',
