@@ -12,7 +12,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.DEPLOY_PRIVATE_KEY }}
         TARGET_REPO: wyf195075595/docs.git
-        TARGET_BRANCH: gh-page
+        TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist
         # CNAME: https://www.xxx.com
