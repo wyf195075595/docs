@@ -2,7 +2,7 @@
  * @Description: 
  * @Author:  
  * @Date: 2023-04-18 08:36:26
- * @LastEditTime: 2023-04-19 08:41:37
+ * @LastEditTime: 2023-04-19 14:34:42
  * @LastEditors:  
  */
 /*
@@ -46,7 +46,7 @@ module.exports = {
             ]
           }
       ],
-      sidebar: "auto"
+      // sidebar: "auto"
     },
     // 【离线web页面】只有在你能够使用 SSL 部署您的站点时才能启用此功能，因为 service worker 只能在 HTTPs 的 URL 下注册。
     plugins: {
@@ -70,6 +70,17 @@ module.exports = {
       '@vuepress/back-to-top': {},
       '@vuepress/google-analytics': {
         'ga': 'UA-264328596-1' //
+      },
+      '@vuepress/medium-zoom': {
+        selector: 'img.zoom-custom-imgs',
+        // medium-zoom options here
+        // See: https://github.com/francoischalifour/medium-zoom#options
+        options: {
+          margin: 16
+        }
+      },
+      "vuepress-plugin-auto-sidebar": {
+        nav: true
       }
     }
   }

@@ -15,4 +15,4 @@ jobs:
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist
-        # CNAME: https://www.xxx.com
+        # CNAME: https://www.xxx.com # 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
