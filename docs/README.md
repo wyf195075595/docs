@@ -1,3 +1,10 @@
+<!--
+ * @Description: 
+ * @Author:  
+ * @Date: 2023-04-18 08:36:26
+ * @LastEditTime: 2023-04-19 18:29:38
+ * @LastEditors:  
+-->
 ---
 home: true
 heroImage: /hero.png
@@ -14,6 +21,14 @@ features:
   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 # footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
+
+
+[![Build Status](https://img.shields.io/badge/github-vuepress-green?logo=appveyor)](https://github.com/wyf195075595/docs)
+
+[![Build Status](https://img.shields.io/badge/-fork-lightgrey?logo=github)](https://github.com/wyf195075595/docs)
+
+[![Build Status](https://img.shields.io/badge/vuepress-1.9.9-yellowgreen?logo=github)](https://github.com/wyf195075595/docs)
+
 
 ::: slot footer
 MIT Licensed | Copyright © 2018-present [Evan You](https://github.com/yyx990803)
